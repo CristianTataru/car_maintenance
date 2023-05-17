@@ -115,7 +115,7 @@ class _AddVehiclePageState extends State<AddVehiclePage> {
       context: context,
       initialDate: DateTime.now(),
       firstDate: DateTime(2020, 01, 01),
-      lastDate: DateTime.now(),
+      lastDate: DateTime.now().add(const Duration(days: 365)),
       builder: (context, child) {
         return Theme(
           data: Theme.of(context).copyWith(
@@ -567,7 +567,7 @@ class _AddVehiclePageState extends State<AddVehiclePage> {
                         children: [
                           const Expanded(
                             child: Text(
-                              "Last inspection:",
+                              "Inspection expiry:",
                               style: TextStyle(
                                   fontSize: 25, fontWeight: FontWeight.bold, color: CustomColors.fontMainColor),
                             ),

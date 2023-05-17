@@ -1,3 +1,1 @@
-# car_maintenance
-
-A new Flutter project.
+Example Car Maintenance app accessing phone camera and gallery. Used TypeAhead widget for suggestions.

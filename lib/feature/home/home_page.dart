@@ -252,7 +252,7 @@ Text statusText(Vehicle vehicle) {
           "Attention required!",
           style: TextStyle(
             color: Colors.orange,
-            fontSize: 25,
+            fontSize: 20,
           ),
           textAlign: TextAlign.justify,
         );
